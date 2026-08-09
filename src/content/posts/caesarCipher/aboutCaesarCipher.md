@@ -145,7 +145,7 @@ A fim de tornar esse artigo mais leve, vou contar todo o contexto de criação d
     void caesarDecrypt(char textInput[], char textOutput[], int key)
     {
       int i = 0;
-  
+
       while(textInput[i] != '\0')
       {
         if((textInput[i] >= 'a' && textInput[i] <= 'z') || (textInput[i] >= 'A' && textInput[i] <= 'Z'))
@@ -173,13 +173,13 @@ A fim de tornar esse artigo mais leve, vou contar todo o contexto de criação d
 
       int n = 26, i;
       int possibleKey[n], sortedVec[n], alphabetCounter[n];
-  
+ 
       charOccurrence(encryptedText, alphabetCounter);     // counting char occurrence
       printf("'a' freq (idx 0): %d\n", alphabetCounter[0]);
       sortCharOccurrenceVec(alphabetCounter, sortedVec);  // sorting it
       printf("Most freq index (sortedVec[0]): %d\n", sortedVec[0]);
       englishKeyFinder(sortedVec, possibleKey);          // finding possible keys
-  
+
       printf("Text is too short, trying brute force.\n");
       for(i=0; i < 26; i++)
       {
