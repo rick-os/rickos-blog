@@ -5,7 +5,7 @@
   published: 2026-08-12
   draft: false
 
-  category: poems
+  category: Textos
   tags:
     - utilidade
     - desgaste
