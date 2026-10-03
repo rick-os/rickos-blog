@@ -109,10 +109,11 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"/assets/desktop-banner/1.webp",
-				"/assets/desktop-banner/2.webp",
-				"/assets/desktop-banner/3.webp",
-				"/assets/desktop-banner/4.webp",
+		  	"/assets/desktop-banner/crows.webp",
+		  	"/assets/desktop-banner/2b.webp",
+		  	"/assets/desktop-banner/ichigo.webp",
+		  	"/assets/desktop-banner/horse.webp",
+		  	"/assets/desktop-banner/redeye.webp",
 			], // 桌面横幅图片
 			mobile: [
 				"/assets/mobile-banner/1.webp",
@@ -126,7 +127,7 @@ export const siteConfig: SiteConfig = {
 
 		carousel: {
 			enable: true,
-			interval: 3,
+			interval: 3.5,
 			switchable: true,
 		},
 

@@ -13,7 +13,7 @@
     - encryption
     - history
 
-  image: "./banner.webp"
+  image: "./image.webp"
   pinned: false
 ---
 A fim de tornar esse artigo mais leve, vou contar todo o contexto de criação deste método de criptografia, então teremos uma parte mais histórica e outra mais técnica, sinta-se à vontade para ler o que quiser! O projeto está em: [caesarCipher](https://github.com/rick-os/caesarCipher)  

@@ -1,5 +1,5 @@
 ---
-  title: "A HORA"
+  title: "A Hora"
   description: "Um diálogo sobre o tempo."
 
   published: 2026-08-18
@@ -16,7 +16,7 @@
 ---
 
 <div class="poem">
-<h1>A HORA</h1>  
+<h1>A Hora</h1>  
 
 Está chegando!  
 
@@ -50,7 +50,7 @@ A hora de sair, a hora de voltar, a hora de se vestir, a hora de se despir, a ho
 
 *Pensando bem, você tem razão!! Está chegando!*  
 
-É ine:vitável!  
+É inevitável!  
 
 *Estamos acabados!*
 </div>  
