@@ -20,38 +20,36 @@ export interface Project {
 }
 
 export const projectsData: Project[] = [
-  {
-    id: "caesar_cipher",
-    title: "Caesar Cipher",
-    description: 
-      "Um algoritmo simples escrito em C que utiliza a cifra criada por Júlio Cesar, imperador romano no período de 49 a.C à 44 a.C.",
-    image: "/assets/projects/julio-caesar.webp",
-    category: "criptografia",
-    techStack: ["C"],
-    status: "completed",
-    sourceCode: "https://github.com/rick-os/caesarCipher",
-    startDate: "2026-07-21",
-    endDate: "2026-07-28",
-    featured: true,
-    tags: ["Algorithms", "Math", "Logic"],
-  },
-  {
-    id: "tictactoe",
-    title: "Tic Tac Toe",
-    description: 
-      "Um jogo da velha simples escrito em C.",
-    image: "/assets/projects/tictactoe.webp",
-    category: "games",
-    techStack: ["C"],
-    status: "completed",
-    sourceCode: "https://github.com/rick-os/tictactoe-gnuc",
-    startDate: "2026-07-20",
-    endDate: "2026-07-20",
-    featured: true,
-    tags: ["Algorithms", "Hobby", "Logic"],
-    
-  },
-  /*
+	{
+		id: "caesar_cipher",
+		title: "Caesar Cipher",
+		description:
+			"Um algoritmo simples escrito em C que utiliza a cifra criada por Júlio Cesar, imperador romano no período de 49 a.C à 44 a.C.",
+		image: "/assets/projects/julio-caesar.webp",
+		category: "criptografia",
+		techStack: ["C"],
+		status: "completed",
+		sourceCode: "https://github.com/rick-os/caesarCipher",
+		startDate: "2026-07-21",
+		endDate: "2026-07-28",
+		featured: true,
+		tags: ["Algorithms", "Math", "Logic"],
+	},
+	{
+		id: "tictactoe",
+		title: "Tic Tac Toe",
+		description: "Um jogo da velha simples escrito em C.",
+		image: "/assets/projects/tictactoe.webp",
+		category: "games",
+		techStack: ["C"],
+		status: "completed",
+		sourceCode: "https://github.com/rick-os/tictactoe-gnuc",
+		startDate: "2026-07-20",
+		endDate: "2026-07-20",
+		featured: true,
+		tags: ["Algorithms", "Hobby", "Logic"],
+	},
+	/*
 	{
 		id: "mizuki",
 		title: "Mizuki",

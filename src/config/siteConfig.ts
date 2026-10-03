@@ -109,11 +109,11 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-		  	"/assets/desktop-banner/crows.webp",
-		  	"/assets/desktop-banner/2b.webp",
-		  	"/assets/desktop-banner/ichigo.webp",
-		  	"/assets/desktop-banner/horse.webp",
-		  	"/assets/desktop-banner/redeye.webp",
+				"/assets/desktop-banner/crows.webp",
+				"/assets/desktop-banner/2b.webp",
+				"/assets/desktop-banner/ichigo.webp",
+				"/assets/desktop-banner/horse.webp",
+				"/assets/desktop-banner/redeye.webp",
 			], // 桌面横幅图片
 			mobile: [
 				"/assets/mobile-banner/1.webp",
@@ -154,11 +154,11 @@ export const siteConfig: SiteConfig = {
 
 			subtitle: [
 				"Como carambas você acabou aqui?",
-        "Bom, isso não importa, obrigado pela visita!",
-        "Por que não dá uma olhada no blog?",
-        "Alguém realmente lê isso?",
+				"Bom, isso não importa, obrigado pela visita!",
+				"Por que não dá uma olhada no blog?",
+				"Alguém realmente lê isso?",
 				"Ehhh... O que eu deveria colocar aqui?",
-        "Você ainda está aqui? Tente visitar os artigos...",
+				"Você ainda está aqui? Tente visitar os artigos...",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果

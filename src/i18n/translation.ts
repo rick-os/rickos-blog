@@ -2,9 +2,9 @@ import { siteConfig } from "../config";
 import type I18nKey from "./i18nKey";
 import { en } from "./languages/en";
 import { ja } from "./languages/ja";
+import { pt_BR } from "./languages/pt_BR";
 import { zh_CN } from "./languages/zh_CN";
 import { zh_TW } from "./languages/zh_TW";
-import { pt_BR } from "./languages/pt_BR";
 
 export type Translation = Record<I18nKey, string>;
 
@@ -19,7 +19,7 @@ const map: Record<string, Translation> = {
 	zh_tw: zh_TW,
 	ja: ja,
 	ja_jp: ja,
-  pt_br: pt_BR,
+	pt_br: pt_BR,
 };
 
 export function getTranslation(lang: string): Translation {

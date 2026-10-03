@@ -12,12 +12,7 @@ export const pioConfig: PioConfig = {
 	hideAboutMenu: false, // 隐藏内置 About 菜单按钮
 	dialog: {
 		welcome: "Bem vindo(a) ao meu blog!", // 欢迎词
-		touch: [
-			"",
-			"",
-			"HENTAI!",
-			"Don't bully me like that!",
-		], // 触摸提示
+		touch: ["", "", "HENTAI!", "Don't bully me like that!"], // 触摸提示
 		home: "Click here to go back to homepage!", // 首页提示
 		skin: ["Want to see my new outfit?", "The new outfit looks great~"], // 换装提示
 		close: "QWQ See you next time~", // 关闭提示

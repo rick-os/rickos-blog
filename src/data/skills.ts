@@ -261,7 +261,7 @@ export const skillsData: Skill[] = [
 		projects: ["caesar_cipher", "tictactoe"],
 		color: "#A8B9CC",
 	},
-  /*
+	/*
 	{
 		id: "kotlin",
 		name: "Kotlin",
@@ -420,8 +420,8 @@ export const skillsData: Skill[] = [
 	},
 */
 	// Tools
-	
-  {
+
+	{
 		id: "git",
 		name: "Git",
 		description:
@@ -443,7 +443,7 @@ export const skillsData: Skill[] = [
 		experience: { years: 0, months: 6 },
 		color: "#007ACC",
 	},
-  {
+	{
 		id: "neovim",
 		name: "NeoVim",
 		description:
@@ -454,7 +454,7 @@ export const skillsData: Skill[] = [
 		experience: { years: 0, months: 1 },
 		color: "#57A143",
 	},
-  /*
+	/*
 	{
 		id: "webstorm",
 		name: "WebStorm",
@@ -527,7 +527,7 @@ export const skillsData: Skill[] = [
 		experience: { years: 0, months: 5 },
 		color: "#2496ED",
 	},
-  /*
+	/*
 	{
 		id: "kubernetes",
 		name: "Kubernetes",
@@ -612,7 +612,7 @@ export const skillsData: Skill[] = [
 		projects: [],
 		color: "#FCC624",
 	},
-  /*
+	/*
 	{
 		id: "postman",
 		name: "Postman",

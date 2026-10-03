@@ -13,7 +13,7 @@ export interface DiaryItem {
 
 // 示例日记数据
 const diaryData: DiaryItem[] = [
-  /*
+	/*
 	{
 		id: 1,
 		content:

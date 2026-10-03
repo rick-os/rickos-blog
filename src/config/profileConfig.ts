@@ -1,6 +1,5 @@
+import { Icon } from "astro-icon/components";
 import type { ProfileConfig } from "../types/config";
-import { Icon } from 'astro-icon/components';
-
 
 // 个人资料配置
 export const profileConfig: ProfileConfig = {
@@ -32,10 +31,10 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa7-brands:discord",
 			url: "https://discord.com/users/479027737085083663",
 		},
-    {
-      name: "Steam",
-      icon: "steam",
-      url: "https://steamcommunity.com/profiles/76561199062612429/",
-    },
+		{
+			name: "Steam",
+			icon: "steam",
+			url: "https://steamcommunity.com/profiles/76561199062612429/",
+		},
 	],
 };

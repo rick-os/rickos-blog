@@ -4,11 +4,11 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	enable: true,
 	src: {
 		desktop: [
-		  "/assets/desktop-banner/crows.webp",
-		  "/assets/desktop-banner/2b.webp",
-		  "/assets/desktop-banner/ichigo.webp",
-		  "/assets/desktop-banner/horse.webp",
-		  "/assets/desktop-banner/redeye.webp",
+			"/assets/desktop-banner/crows.webp",
+			"/assets/desktop-banner/2b.webp",
+			"/assets/desktop-banner/ichigo.webp",
+			"/assets/desktop-banner/horse.webp",
+			"/assets/desktop-banner/redeye.webp",
 		],
 		mobile: [
 			"/assets/mobile-banner/1.webp",
@@ -24,7 +24,7 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	},
 	zIndex: -1,
 	opacity: 0.8,
-    blur: 0.3,
+	blur: 0.3,
 	switchable: true,
 	overlay: {
 		opacity: 0.8, // 壁纸不透明度，0-1

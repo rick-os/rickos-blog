@@ -133,7 +133,6 @@ export const navBarConfig: NavBarConfig = {
 		// 预设链接：归档
 		LinkPreset.Archive,
 
-
 		{
 			name: "Links",
 			url: "/links/",
@@ -145,13 +144,13 @@ export const navBarConfig: NavBarConfig = {
 					external: true, // vai ir pra outra guia?
 					icon: "fa7-brands:github",
 				},
-        {
-          name: "Youtube",
-          url: "https://www.youtube.com/channel/UC_BT94MgdoTjLSHCnZATlig",
-          external: true,
-          icon: "youtube",
-        },
-      ],
+				{
+					name: "Youtube",
+					url: "https://www.youtube.com/channel/UC_BT94MgdoTjLSHCnZATlig",
+					external: true,
+					icon: "youtube",
+				},
+			],
 		},
 
 		// 自定义一级下拉菜单示例：个人内容页面

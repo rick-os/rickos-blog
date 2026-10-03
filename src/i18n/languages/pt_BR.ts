@@ -84,7 +84,8 @@ export const pt_BR: Translation = {
 		"Defina seu userId do Bangumi no arquivo src/config/siteConfig.ts",
 
 	// Diary Page
-	[Key.diarySubtitle]: "Compartilhando a vida, a qualquer hora, em qualquer lugar",
+	[Key.diarySubtitle]:
+		"Compartilhando a vida, a qualquer hora, em qualquer lugar",
 	[Key.diaryNoResults]: "Nenhum momento encontrado",
 	[Key.diaryCount]: "registros",
 
@@ -119,7 +120,8 @@ export const pt_BR: Translation = {
 	[Key.musicPlayerPlaylist]: "Playlist",
 	[Key.musicPlayerLoading]: "Carregando...",
 	[Key.musicPlayerErrorPlaylist]: "Falha ao buscar playlist",
-	[Key.musicPlayerErrorSong]: "Falha ao carregar a música atual, tentando a próxima",
+	[Key.musicPlayerErrorSong]:
+		"Falha ao carregar a música atual, tentando a próxima",
 	[Key.musicPlayerErrorEmpty]: "Nenhuma música disponível na playlist",
 	[Key.unknownSong]: "Música Desconhecida",
 	[Key.unknownArtist]: "Artista Desconhecido",
@@ -332,7 +334,8 @@ export const pt_BR: Translation = {
 	[Key.passwordUnlockButton]: "Desbloquear",
 	[Key.copyFailed]: "Falha ao copiar:",
 	[Key.syntaxHighlightFailed]: "Falha no destaque de sintaxe:",
-	[Key.autoSyntaxHighlightFailed]: "O destaque de sintaxe automático também falhou:",
+	[Key.autoSyntaxHighlightFailed]:
+		"O destaque de sintaxe automático também falhou:",
 	[Key.decryptionError]: "Ocorreu um erro durante a descriptografia:",
 	[Key.passwordHint]: "Dica",
 
