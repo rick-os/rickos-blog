@@ -3,7 +3,7 @@
   description: "Sobre o medo de arrepender-se"
 
   published: 2026-10-18
-  draft: false
+  draft: true
 
   category: Textos
   tags:
@@ -14,7 +14,6 @@
   image: "image.webp"
   pinned: false
 
-  draft: true;
 ---
 
 <div class="long-text">
