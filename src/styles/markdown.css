@@ -327,3 +327,44 @@ html[data-theme="dark"] .poem,
   border-top-color: rgba(148, 163, 184, 0.2);
   border-bottom-color: rgba(148, 163, 184, 0.2);
 }
+
+.long-text {
+  /* 1. Largura e Alinhamento Natural */
+  max-width: 65ch;              /* Largura confortável para os olhos */
+  margin: 0 auto;               /* Centraliza no container */
+  padding: 1.5rem 0;            /* Espaçamento vertical sem criar caixa externa */
+
+  /* 2. Tipografia e Leitura Confortável */
+  font-family: inherit;         /* Mantém a fonte original do seu site */
+  font-size: 1.1rem;
+  line-height: 1.8;             /* Linhas mais espaçadas facilitam a leitura */
+  
+  /* 3. Justificação Fluida */
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;                /* Separa sílabas para o texto não 'quebrar' com buracos */
+  -webkit-hyphens: auto;
+
+  /* 4. Cores Naturais (Sem fundo fixo) */
+  color: inherit;               /* Herda a cor padrão do texto do seu site */
+  background: transparent;      /* Sem blocos de cor de fundo */
+  
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.poem2 {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Georgia, serif;
+}
+
+.citacao{
+  font-style: italic;
+  color: #cbd5e1;
+  margin: 10px 0 20px 0;
+  padding-left: 15px;
+  border-left: 3px solid #ccc; /* Linha sutil na esquerda típica de citações */
+  font-size: 0.95em;
+}
